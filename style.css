@@ -1,0 +1,76 @@
+#gameTitle {
+	margin: 10px;
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+	font-size: 300%;
+}
+
+#buttons {
+	border: solid;
+	border-color: red;
+	margin: auto;
+	width: 75vw;
+	height: 50vh;
+}
+
+body {
+  background-color: lightblue;
+}
+
+#results {
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+	font-size: 300%;
+	margin: 100px;
+}
+
+.button {
+	width: calc(100%  /3);
+	height: 100%;
+	margin: auto;
+}
+
+#rock {
+	background-image: url(https://live.staticflickr.com/8205/8217593905_242bc0aed7_b.jpg);
+	background-size: 100% 100%;
+	border: solid;
+	float: left;
+
+}
+
+#paper {
+	background-image: url(https://live.staticflickr.com/5096/5530488320_b14bb6d3f7_b.jpg);
+	background-size: 100% 100%;
+	border: solid;
+}
+
+#scissors {
+	background-image: url(https://live.staticflickr.com/4109/4986942893_0d721fb3d8_b.jpg);
+	background-size: 100% 100%;
+	border: solid;
+	float: right;
+}
+
+.grid {
+	margin: auto;
+	display: grid;
+	width: 75vw;
+	height: 20vh;
+	grid-template-columns: 50% 50%;
+	border: solid;
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+	font-size: 300%;
+}
+
+.score {
+	border: solid;
+}
+
+#player {
+	margin-top: 8%;
+}
+
+#computer {
+	margin-top: 8%;
+}
